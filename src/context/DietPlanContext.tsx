@@ -31,7 +31,6 @@ const DietPlanContext = createContext<DietPlanContextType>({
   nutritionGoals: defaultNutritionGoals,
   planRecipes: [],
   createPlan: () => {},
-  addRecipeToPlan: () => {},
   removeRecipeFromPlan: () => {},
   updateNutritionGoals: () => {},
   checkIfIngredientInSeason: () => false
