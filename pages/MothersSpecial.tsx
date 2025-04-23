@@ -1,18 +1,18 @@
 
 import React, { useState } from 'react';
-import { Header } from '../components/Header';
-import { MobileNav } from '../components/MobileNav';
+import { Header } from '../src/components/Header';
+import { MobileNav } from '../src/components/MobileNav';
 import { Link } from 'react-router-dom';
 import { 
   Button 
-} from '../components/ui/button';
+} from '../src/components/ui/button';
 import { 
   Card, 
   CardContent, 
   CardDescription, 
   CardHeader, 
   CardTitle 
-} from '../components/ui/card';
+} from '../src/components/ui/card';
 import {
   Form,
   FormControl,
@@ -20,23 +20,23 @@ import {
   FormItem,
   FormLabel,
   FormMessage
-} from '../components/ui/form';
-import { Input } from '../components/ui/input';
-import { Label } from '../components/ui/label';
+} from '../src/components/ui/form';
+import { Input } from '../src/components/ui/input';
+import { Label } from '../src/components/ui/label';
 import { 
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue
-} from '../components/ui/select';
-import { Separator } from '../components/ui/separator';
-import { Textarea } from '../components/ui/textarea';
+} from '../src/components/ui/select';
+import { Separator } from '../src/components/ui/separator';
+import { Textarea } from '../src/components/ui/textarea';
 import { ArrowLeft, ChefHat, Heart, Plus, Scale, Trash, Users } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useToast } from '../components/ui/use-toast';
+import { useToast } from '../src/components/ui/use-toast';
 
 // Define schema for the recipe form
 const recipeSchema = z.object({
