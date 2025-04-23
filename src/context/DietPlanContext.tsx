@@ -18,7 +18,11 @@ interface DietPlanContextType {
 }
 
 const defaultNutritionGoals: NutritionGoals = {
-  
+  calories: 2000,
+  protein: 100,
+  carbs: 250,
+  fiber: 30,
+  fat: 65
 };
 
 const DietPlanContext = createContext<DietPlanContextType>({
