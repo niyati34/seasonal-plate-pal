@@ -6,13 +6,13 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { DietPlanProvider } from "./context/DietPlanContext";
-import Index from "../pages/Index";
-import CreatePlan from "../pages/CreatePlan";
-import MyPlan from "../pages/MyPlan";
-import Recipes from "../pages/Recipes";
-import Ingredients from "../pages/Ingredients";
-import MothersSpecial from "../pages/MothersSpecial";
-import NotFound from "../pages/NotFound";
+import Index from "./pages/Index";
+import CreatePlan from "./pages/CreatePlan";
+import MyPlan from "./pages/MyPlan";
+import Recipes from "./pages/Recipes";
+import Ingredients from "./pages/Ingredients";
+import MothersSpecial from "./pages/MothersSpecial";
+import NotFound from "./pages/NotFound";
 
 // Create QueryClient instance
 const queryClient = new QueryClient();

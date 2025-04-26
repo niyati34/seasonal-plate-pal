@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Header } from '../src/components/Header';
-import { MobileNav } from '../src/components/MobileNav';
-import { Button } from '../src/components/ui/button';
-import { Card, CardContent } from '../src/components/ui/card';
+import { Header } from '../components/Header';
+import { MobileNav } from '../components/MobileNav';
+import { Button } from '../components/ui/button';
+import { Card, CardContent } from '../components/ui/card';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChefHat, HeartHandshake, Heart, Utensils, Leaf, BookOpen } from 'lucide-react';
-import { getIngredientsInSeason } from '../src/data/ingredients';
-import { getCurrentSeason } from '../src/utils/nutritionCalculator';
+import { getIngredientsInSeason } from '../data/ingredients';
+import { getCurrentSeason } from '../utils/nutritionCalculator';
 
 const Index = () => {
   const currentSeason = getCurrentSeason();
